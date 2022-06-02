@@ -11,7 +11,27 @@ Second Section
 /*
 Third Section
 */
+.f_container{
 
+}
+.f_program{
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.f_program_item{
+    width: 400px;
+    height: 330px;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+
+/* margin: 0 auto;*/
+} 
+.f_item_img img{
+    border-radius: 30px 30px 0 0;
+    width: 100%;
+    height: 100%;
+}
 
 /*
 Fourth Section
